@@ -1,5 +1,9 @@
 .header {
-    display: grid;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    padding: 10px 200px 10px 320px;
 }
 
 .logo {
