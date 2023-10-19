@@ -1,4 +1,11 @@
-.body {
+@font-face {
+    font-family: 'Arimo';
+    font-weight: 500;
+    src: url('./font/Arimo-Medium.ttf') format('ttf');
+  }
+  
+
+.body, .text {
     font-family: Arimo;
     font-size: 18px;
     font-style: normal;
@@ -18,7 +25,7 @@
     background: var(--light-yellow, #FFD11B);
     display: flex;
     gap: 604px;
-     padding: 10px 200px 10px 320px;
+    padding: 10px 200px 10px 320px;
 }
 
 .header__logo {
