@@ -1,65 +1,56 @@
-@font-face {
-    font-family: 'Arimo';
-    font-weight: 500;
-    src: url('./font/Arimo-Medium.ttf') format('ttf');
-  }
-  
+@import url(reset.css);
 
-.body, .text {
-    font-family: Arimo;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+header section {
+    background-color: #FFD11B;
 }
 
-.header {
+.content, nav {
     width: 100%;
-    max-width: 1920px;
-    display: grid;
-    column-gap: 6px;
-    justify-items: center;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.header__top {
-    background: var(--light-yellow, #FFD11B);
+header .content {
     display: flex;
-    gap: 604px;
-    padding: 10px 200px 10px 320px;
+    align-items: center;
+    /* justify-items: center; */
+    justify-content: space-between;
+
 }
 
-.header__logo {
+.content__logo {
     max-width: 176px;
     min-height: 69px;
 }
 
-.header__button-container{
+.content__button-container {
     display: flex;
     gap: 24px;
 }
 
-.header__button {
-    width: 238px;
+.content button {
+    max-width: 238px;
     border-radius: 100px;
     padding: 14px 40px;
 }
 
-.header__button_volonteer {
-    background: var(--very-light-grey, #F4F4F4);
+.content__button_volonteer {
+    background-color: #F4F4F4;
 }
 
-.header__button_helpful {
+.content__button_helpful {
     color: #fff;
-    background: var(--green, #226C1C);
+    background-color: #226C1C;
 }
 
-.header__nav {
-    display: flex;
-    gap: 20px;
+header nav {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
 }
 
-.header__item {
-    color: var(--black, #000);
+header nav a {
+    color: #000;
     text-decoration: none;
 }
