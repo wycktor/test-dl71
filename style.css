@@ -1,5 +1,16 @@
 @import url(reset.css);
 
+@font-face {
+    font-family: 'Arimo';
+    font-weight: 500;
+    src: url('./font/Arimo-Medium.ttf') format('ttf');
+  }
+
+  body{
+    font-family: Arimo;
+    font-size: 18px;
+}
+
 header section {
     background-color: #FFD11B;
 }
