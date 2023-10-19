@@ -3,19 +3,21 @@
 @font-face {
     font-family: 'Arimo';
     font-weight: 500;
-    src: url('./font/Arimo-Medium.ttf') format('ttf');
-  }
+    src: url('./fonts/Arimo-Medium.ttf') format('ttf');
+}
 
-  body, header button{
-    font-family: Arimo;
-    font-size: 18px;
+@font-face {
+    font-family: 'Intro Black';
+    font-weight: 500;
+    src: url('./fonts/Intro Black.ttf') format('ttf');
 }
 
 header section {
     background-color: #FFD11B;
+    padding: 8px 0;
 }
 
-.content, nav {
+.content, nav, .footer__container{ 
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -24,12 +26,11 @@ header section {
 header .content {
     display: flex;
     align-items: center;
-    /* justify-items: center; */
     justify-content: space-between;
 
 }
 
-.content__logo {
+.logo {
     max-width: 176px;
     min-height: 69px;
 }
@@ -42,6 +43,8 @@ header .content {
 .content button {
     max-width: 238px;
     border-radius: 100px;
+    font-family: Arimo;
+    font-size: 18px;
     padding: 14px 40px;
 }
 
@@ -58,10 +61,120 @@ header nav {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin-top: 6px;
+    font-family: Arimo;
+    font-size: 18px;
+    margin-top: 16px;
 }
 
 header nav a {
     color: #000;
     text-decoration: none;
+}
+
+footer {
+    background-color: #E9E9E9;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 160px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer .info {
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .helpful {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer h2 {
+    width: 419px;
+    font-family: 'Intro Black';
+    font-size: 32px;
+    font-weight: 900;
+}
+
+footer input {
+    width: 362px;
+    margin-top: 12px;
+}
+
+footer label {
+    font-family: Arimo;
+    font-size: 18px;
+}
+
+.contacts {
+    margin-left: 40px;
+}
+
+.contacts__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__email, .contacts__phone{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    margin-bottom: 22px;
+}
+
+.contacts__phone img, .contacts__phone p { 
+    margin-left: 3px;
+}
+
+.contacts__container-arrow {
+    display: flex;
+    background-color: #959595;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+
+.contacts__container-arrow img {
+    width: 32px;
+    height: 32px;
+    fill: #959595;
+    margin: auto;
+}
+
+.contacts__society {
+    margin-top: 60px;
+}
+.contacts__society p {
+    margin-bottom: 16px;
+}
+
+.contacts__society-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__container-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    margin-top: 20px;
 }
