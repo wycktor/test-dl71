@@ -178,3 +178,12 @@ footer label {
     gap: 10px;
     margin-top: 20px;
 }
+
+.footer__container-copy p {
+    font-family: Arimo;
+    font-size: 14px;
+}
+
+.contacts__developer {
+    font-size: 18px;
+}
