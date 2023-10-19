@@ -42,6 +42,7 @@ header .content {
 
 .content button {
     max-width: 238px;
+    border: none;
     border-radius: 100px;
     font-family: Arimo;
     font-size: 18px;
@@ -80,7 +81,6 @@ footer {
     flex-direction: column;
     gap: 10px;
     margin-top: 180px;
-    /* margin-bottom: 40px; */
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -118,6 +118,7 @@ footer h2 {
 footer input {
     width: 320px;
     align-items: center;
+    border-radius: 8px;
     padding: 8px;
     margin-top: 12px;
 }
