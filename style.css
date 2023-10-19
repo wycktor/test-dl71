@@ -58,7 +58,7 @@ header .content {
     background-color: #226C1C;
 }
 
-header nav {
+header ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 180px;
+    margin-top: 120px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -190,4 +190,66 @@ footer label {
 
 .contacts__developer {
     font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 680px;
+    margin: 80px auto 0;
+}
+
+main nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4px;
+    justify-content: start;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+main nav ul li{
+    margin: 0;
+}
+
+main a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main__link-active {
+    color:#226C1C;
+}
+
+h1 {
+    font-family: Intro Black;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 64px 0 56px;
+}
+
+h3 {
+    font-family: Intro Black;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+main p {
+    margin: 40px 0;
+}
+
+main ul {
+    list-style-type: disc;
+    margin-top: 40px;
+}
+
+main ul li{
+    margin-left: 16px;
 }
