@@ -6,7 +6,7 @@
     src: url('./font/Arimo-Medium.ttf') format('ttf');
   }
 
-  body{
+  body, header button{
     font-family: Arimo;
     font-size: 18px;
 }
