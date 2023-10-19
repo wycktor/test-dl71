@@ -19,7 +19,7 @@ header section {
 
 .content, nav, .footer__container{ 
     width: 100%;
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -79,7 +79,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 160px;
+    margin-top: 140px;
     margin-bottom: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -94,7 +94,7 @@ footer .info {
     width: 176px;
     display: flex;
     flex-direction: column;
-    gap: 41px;
+    gap: 60px;
 }
 
 footer p {
@@ -105,6 +105,7 @@ footer .helpful {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 80px;
 }
 
 footer h2 {
@@ -115,7 +116,9 @@ footer h2 {
 }
 
 footer input {
-    width: 362px;
+    width: 320px;
+    align-items: center;
+    padding: 8px;
     margin-top: 12px;
 }
 
